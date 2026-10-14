@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.DS_Store
+data/private/
+runs/
+
+# 输入文件及模型产物不纳入源码发布
+data/
+*.npz
+*.npy
+*.pt
+private/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+build/
+dist/
+
+# 本地审阅文档不纳入版本库
+实现与验证边界说明.md

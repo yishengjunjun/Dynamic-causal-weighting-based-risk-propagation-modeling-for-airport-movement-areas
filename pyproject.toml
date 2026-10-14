@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "airport-risk-reproduction"
+version = "0.3.0"
+description = "机场飞行区动态因果权重与风险传播模型"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "torch>=2.4,<3", "networkx>=3.2,<4", "matplotlib>=3.8,<4", "scikit-learn>=1.4,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+xlsx = ["openpyxl>=3.1,<4"]
+
+[project.scripts]
+airport-risk = "airport_risk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

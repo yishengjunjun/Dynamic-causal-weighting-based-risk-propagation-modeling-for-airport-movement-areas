@@ -1,0 +1,1142 @@
+{
+  "schema_version": 1,
+  "catalog_id": "airport-movement-factor-catalog-v1",
+  "language": "zh",
+  "factors": [
+    {
+      "id": "a1",
+      "name": "人的因素",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的人的因素。",
+      "aliases": [
+        "人的因素"
+      ],
+      "role": "aggregate",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a2",
+      "name": "地面保障人员及车辆驾驶员差错",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面保障人员及车辆驾驶员差错。",
+      "aliases": [
+        "地面保障人员及车辆驾驶员差错"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a3",
+      "name": "空管人员差错",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员差错。",
+      "aliases": [
+        "空管人员差错"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a4",
+      "name": "飞行机组因素",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组因素。",
+      "aliases": [
+        "飞行机组因素"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a5",
+      "name": "地面人员未及时发现危险",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员未及时发现危险。",
+      "aliases": [
+        "地面人员未及时发现危险"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a6",
+      "name": "地面人员未经许可进入跑道",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员未经许可进入跑道。",
+      "aliases": [
+        "地面人员未经许可进入跑道"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a7",
+      "name": "错误进入跑道",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的错误进入跑道。",
+      "aliases": [
+        "错误进入跑道",
+        "误入跑道"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a8",
+      "name": "地面人员／驾驶员反应延迟",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员／驾驶员反应延迟。",
+      "aliases": [
+        "地面人员／驾驶员反应延迟",
+        "地面人员/驾驶员反应延迟"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a9",
+      "name": "地面人员／驾驶员专业能力不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员／驾驶员专业能力不足。",
+      "aliases": [
+        "地面人员／驾驶员专业能力不足",
+        "地面人员/驾驶员专业能力不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a10",
+      "name": "地面人员／驾驶员机场熟悉度低",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员／驾驶员机场熟悉度低。",
+      "aliases": [
+        "地面人员／驾驶员机场熟悉度低",
+        "地面人员/驾驶员机场熟悉度低"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a11",
+      "name": "地面人员／驾驶员工作经验不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员／驾驶员工作经验不足。",
+      "aliases": [
+        "地面人员／驾驶员工作经验不足",
+        "地面人员/驾驶员工作经验不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a12",
+      "name": "地面人员／驾驶员工龄",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员／驾驶员工龄。",
+      "aliases": [
+        "地面人员／驾驶员工龄",
+        "地面人员/驾驶员工龄"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a13",
+      "name": "地面人员／驾驶员培训不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的地面人员／驾驶员培训不足。",
+      "aliases": [
+        "地面人员／驾驶员培训不足",
+        "地面人员/驾驶员培训不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a14",
+      "name": "未发现／纠正机组复诵错误",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的未发现／纠正机组复诵错误。",
+      "aliases": [
+        "未发现／纠正机组复诵错误",
+        "未发现/纠正机组复诵错误"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a15",
+      "name": "未发现／响应机组或车辆异常",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的未发现／响应机组或车辆异常。",
+      "aliases": [
+        "未发现／响应机组或车辆异常",
+        "未发现/响应机组或车辆异常"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a16",
+      "name": "空管人员未遵守程序",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员未遵守程序。",
+      "aliases": [
+        "空管人员未遵守程序"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a17",
+      "name": "空管指令延迟",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管指令延迟。",
+      "aliases": [
+        "空管指令延迟"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a18",
+      "name": "空管无线电通信不规范",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管无线电通信不规范。",
+      "aliases": [
+        "空管无线电通信不规范"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a19",
+      "name": "空管人员专业能力不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员专业能力不足。",
+      "aliases": [
+        "空管人员专业能力不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a20",
+      "name": "空管人员工作经验不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员工作经验不足。",
+      "aliases": [
+        "空管人员工作经验不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a21",
+      "name": "空管人员反应时间长",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员反应时间长。",
+      "aliases": [
+        "空管人员反应时间长"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a22",
+      "name": "空管人员培训不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员培训不足。",
+      "aliases": [
+        "空管人员培训不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a23",
+      "name": "空管人员工作年限短",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员工作年限短。",
+      "aliases": [
+        "空管人员工作年限短"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a24",
+      "name": "空管人员工作负荷高",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员工作负荷高。",
+      "aliases": [
+        "空管人员工作负荷高"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a25",
+      "name": "空管人员数量不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的空管人员数量不足。",
+      "aliases": [
+        "空管人员数量不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a26",
+      "name": "错误复诵",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的错误复诵。",
+      "aliases": [
+        "错误复诵",
+        "复诵错误"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a27",
+      "name": "飞行机组不熟悉机场",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组不熟悉机场。",
+      "aliases": [
+        "飞行机组不熟悉机场"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a28",
+      "name": "飞行机组未经许可进入跑道",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组未经许可进入跑道。",
+      "aliases": [
+        "飞行机组未经许可进入跑道"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a29",
+      "name": "飞行机组反应延迟",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组反应延迟。",
+      "aliases": [
+        "飞行机组反应延迟"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a30",
+      "name": "飞行机组未及时发现错误",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组未及时发现错误。",
+      "aliases": [
+        "飞行机组未及时发现错误"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a31",
+      "name": "飞行机组空地通信技能不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组空地通信技能不足。",
+      "aliases": [
+        "飞行机组空地通信技能不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a32",
+      "name": "机组反应时间长",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的机组反应时间长。",
+      "aliases": [
+        "机组反应时间长"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a33",
+      "name": "机组专业能力不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的机组专业能力不足。",
+      "aliases": [
+        "机组专业能力不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a34",
+      "name": "飞行机组工龄短",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组工龄短。",
+      "aliases": [
+        "飞行机组工龄短"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a35",
+      "name": "飞行员经验不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行员经验不足。",
+      "aliases": [
+        "飞行员经验不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "a36",
+      "name": "飞行机组培训不足",
+      "category": "human",
+      "definition": "事件叙述或审核记录中明确记载的飞行机组培训不足。",
+      "aliases": [
+        "飞行机组培训不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b1",
+      "name": "环境因素",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的环境因素。",
+      "aliases": [
+        "环境因素"
+      ],
+      "role": "aggregate",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b2",
+      "name": "道面湿滑",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的道面湿滑。",
+      "aliases": [
+        "道面湿滑",
+        "跑道湿滑",
+        "湿滑"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b3",
+      "name": "低能见度",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的低能见度。",
+      "aliases": [
+        "低能见度",
+        "能见度低",
+        "浓雾"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b4",
+      "name": "高交通流量",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的高交通流量。",
+      "aliases": [
+        "高交通流量",
+        "交通繁忙"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b5",
+      "name": "跑道／滑行道布局复杂",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的跑道／滑行道布局复杂。",
+      "aliases": [
+        "跑道／滑行道布局复杂",
+        "跑道/滑行道布局复杂",
+        "布局复杂",
+        "复杂滑行道"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b6",
+      "name": "夜间运行",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的夜间运行。",
+      "aliases": [
+        "夜间运行",
+        "夜间"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b7",
+      "name": "降水",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的降水。",
+      "aliases": [
+        "降水",
+        "降雨"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "b8",
+      "name": "沙尘",
+      "category": "environment",
+      "definition": "事件叙述或审核记录中明确记载的沙尘。",
+      "aliases": [
+        "沙尘",
+        "沙尘暴"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c1",
+      "name": "设备因素",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的设备因素。",
+      "aliases": [
+        "设备因素"
+      ],
+      "role": "aggregate",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c2",
+      "name": "监视设备故障",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的监视设备故障。",
+      "aliases": [
+        "监视设备故障",
+        "雷达故障"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c3",
+      "name": "通信设备故障",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的通信设备故障。",
+      "aliases": [
+        "通信设备故障",
+        "通信中断"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c4",
+      "name": "设备可靠性差",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的设备可靠性差。",
+      "aliases": [
+        "设备可靠性差"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c5",
+      "name": "地面灯光中断",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的地面灯光中断。",
+      "aliases": [
+        "地面灯光中断"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c6",
+      "name": "关键灯光故障",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的关键灯光故障。",
+      "aliases": [
+        "关键灯光故障"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c7",
+      "name": "地面标志受遮挡",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的地面标志受遮挡。",
+      "aliases": [
+        "地面标志受遮挡"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c8",
+      "name": "电磁干扰",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的电磁干扰。",
+      "aliases": [
+        "电磁干扰"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c9",
+      "name": "标志褪色／布局不合理",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的标志褪色／布局不合理。",
+      "aliases": [
+        "标志褪色／布局不合理",
+        "标志褪色/布局不合理"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c10",
+      "name": "设备可靠性差",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的设备可靠性差。",
+      "aliases": [
+        "设备可靠性差"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c11",
+      "name": "维护延迟",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的维护延迟。",
+      "aliases": [
+        "维护延迟",
+        "维修延迟"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c12",
+      "name": "自动化设备故障",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的自动化设备故障。",
+      "aliases": [
+        "自动化设备故障"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "c13",
+      "name": "警告装置失效",
+      "category": "equipment",
+      "definition": "事件叙述或审核记录中明确记载的警告装置失效。",
+      "aliases": [
+        "警告装置失效"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "d1",
+      "name": "监管因素",
+      "category": "oversight",
+      "definition": "事件叙述或审核记录中明确记载的监管因素。",
+      "aliases": [
+        "监管因素"
+      ],
+      "role": "aggregate",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "d2",
+      "name": "检查频率低",
+      "category": "oversight",
+      "definition": "事件叙述或审核记录中明确记载的检查频率低。",
+      "aliases": [
+        "检查频率低"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "d3",
+      "name": "规章遵守率低",
+      "category": "oversight",
+      "definition": "事件叙述或审核记录中明确记载的规章遵守率低。",
+      "aliases": [
+        "规章遵守率低"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "d4",
+      "name": "监控措施不足",
+      "category": "oversight",
+      "definition": "事件叙述或审核记录中明确记载的监控措施不足。",
+      "aliases": [
+        "监控措施不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "d5",
+      "name": "监管人员不足",
+      "category": "oversight",
+      "definition": "事件叙述或审核记录中明确记载的监管人员不足。",
+      "aliases": [
+        "监管人员不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "d6",
+      "name": "监管投入不足",
+      "category": "oversight",
+      "definition": "事件叙述或审核记录中明确记载的监管投入不足。",
+      "aliases": [
+        "监管投入不足"
+      ],
+      "role": "specific",
+      "catalog_group": "paper_table_1"
+    },
+    {
+      "id": "x1",
+      "name": "人员疲劳",
+      "category": "human",
+      "definition": "持续执勤、睡眠不足或疲劳评估明确提示的警觉性下降。",
+      "aliases": [
+        "疲劳",
+        "睡眠不足"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x2",
+      "name": "注意力分散",
+      "category": "human",
+      "definition": "任务外刺激或多任务切换造成的注意力偏离。",
+      "aliases": [
+        "注意力分散",
+        "分心"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x3",
+      "name": "交接班信息遗漏",
+      "category": "human",
+      "definition": "岗位交接中关键运行状态或限制条件未完成传递。",
+      "aliases": [
+        "交接遗漏",
+        "交接班信息遗漏"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x4",
+      "name": "语言理解障碍",
+      "category": "human",
+      "definition": "不同语言或口音影响指令理解与闭环确认。",
+      "aliases": [
+        "语言障碍",
+        "语言理解障碍"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x5",
+      "name": "呼号混淆",
+      "category": "human",
+      "definition": "航空器或车辆呼号识别与目标对应发生混淆。",
+      "aliases": [
+        "呼号混淆",
+        "听错呼号"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x6",
+      "name": "滑行路线偏离",
+      "category": "human",
+      "definition": "实际滑行路径偏离已确认许可路线。",
+      "aliases": [
+        "滑行路线偏离",
+        "滑错路线"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x7",
+      "name": "保障作业程序违规",
+      "category": "human",
+      "definition": "地面保障作业违反适用程序或作业许可。",
+      "aliases": [
+        "保障程序违规",
+        "保障作业程序违规"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x8",
+      "name": "车辆超速",
+      "category": "human",
+      "definition": "车辆行驶速度超过机场或作业区适用限制。",
+      "aliases": [
+        "车辆超速"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x9",
+      "name": "安全间隔不足",
+      "category": "human",
+      "definition": "航空器、车辆或人员之间的保护间隔不足。",
+      "aliases": [
+        "安全间隔不足",
+        "间隔不足"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x10",
+      "name": "地面指挥信号误解",
+      "category": "human",
+      "definition": "地面指挥手势、标牌或信号被错误解释。",
+      "aliases": [
+        "指挥信号误解",
+        "手势误解"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x11",
+      "name": "低温",
+      "category": "environment",
+      "definition": "机场运行环境温度低并形成明确运行影响。",
+      "aliases": [
+        "低温"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x12",
+      "name": "高海拔机场",
+      "category": "environment",
+      "definition": "机场海拔引起的性能或运行约束。",
+      "aliases": [
+        "高海拔机场",
+        "高原机场"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x13",
+      "name": "大风及阵风",
+      "category": "environment",
+      "definition": "侧风、顺风或阵风对飞行区作业产生影响。",
+      "aliases": [
+        "大风",
+        "阵风",
+        "强侧风"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x14",
+      "name": "结冰积雪",
+      "category": "environment",
+      "definition": "跑道或滑行道表面存在冰雪污染。",
+      "aliases": [
+        "结冰",
+        "积雪"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x15",
+      "name": "鸟类活动",
+      "category": "environment",
+      "definition": "机场及邻近区域鸟类活动对航空器构成风险。",
+      "aliases": [
+        "鸟类活动",
+        "鸟击",
+        "鸟群"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x16",
+      "name": "其他野生动物活动",
+      "category": "environment",
+      "definition": "飞行区非鸟类动物侵入或活动。",
+      "aliases": [
+        "动物侵入",
+        "野生动物"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x17",
+      "name": "道面异物",
+      "category": "environment",
+      "definition": "飞行区道面存在可能造成损伤的外来物。",
+      "aliases": [
+        "道面异物",
+        "FOD",
+        "外来物"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x18",
+      "name": "施工区域冲突",
+      "category": "environment",
+      "definition": "施工区域、临时路线或作业车辆与运行活动冲突。",
+      "aliases": [
+        "施工区域冲突",
+        "施工占用"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x19",
+      "name": "临时关闭信息不一致",
+      "category": "environment",
+      "definition": "机场运行区域关闭状态在不同渠道中不一致。",
+      "aliases": [
+        "关闭信息不一致",
+        "临时关闭"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x20",
+      "name": "道面破损",
+      "category": "environment",
+      "definition": "道面结构破损影响运行或产生脱落物。",
+      "aliases": [
+        "道面破损",
+        "道面裂缝"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x21",
+      "name": "制动系统故障",
+      "category": "equipment",
+      "definition": "航空器或车辆制动装置性能异常。",
+      "aliases": [
+        "制动系统故障",
+        "刹车失灵"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x22",
+      "name": "轮胎失效",
+      "category": "equipment",
+      "definition": "轮胎爆裂、脱层或严重磨损影响运行。",
+      "aliases": [
+        "轮胎失效",
+        "爆胎",
+        "轮胎脱层"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x23",
+      "name": "定位导航故障",
+      "category": "equipment",
+      "definition": "定位或导航设备输出失效或异常。",
+      "aliases": [
+        "定位故障",
+        "导航故障"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x24",
+      "name": "供电系统中断",
+      "category": "equipment",
+      "definition": "飞行区设备或运行设施供电中断。",
+      "aliases": [
+        "供电中断",
+        "停电"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x25",
+      "name": "车辆机械故障",
+      "category": "equipment",
+      "definition": "保障车辆机械系统发生影响作业的异常。",
+      "aliases": [
+        "车辆机械故障",
+        "车辆抛锚"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x26",
+      "name": "异物探测设备失效",
+      "category": "equipment",
+      "definition": "异物探测设备不可用或漏报。",
+      "aliases": [
+        "异物探测设备失效"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x27",
+      "name": "气象探测设备异常",
+      "category": "equipment",
+      "definition": "气象探测设备测量异常或输出中断。",
+      "aliases": [
+        "气象设备异常",
+        "气象探测故障"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x28",
+      "name": "跑道状态信息延迟",
+      "category": "equipment",
+      "definition": "跑道占用或状态信息未及时更新。",
+      "aliases": [
+        "跑道状态信息延迟"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x29",
+      "name": "风险评估不足",
+      "category": "oversight",
+      "definition": "运行变更或危险源未完成适当风险评估。",
+      "aliases": [
+        "风险评估不足"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x30",
+      "name": "安全报告机制缺陷",
+      "category": "oversight",
+      "definition": "安全事件报告渠道、反馈或闭环处置存在缺陷。",
+      "aliases": [
+        "安全报告机制缺陷",
+        "报告机制缺陷"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x31",
+      "name": "跨部门协调不足",
+      "category": "oversight",
+      "definition": "运行相关部门之间信息与行动协调不足。",
+      "aliases": [
+        "跨部门协调不足",
+        "协调不足"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x32",
+      "name": "作业许可管理不足",
+      "category": "oversight",
+      "definition": "人员车辆作业准入、授权或许可控制存在缺陷。",
+      "aliases": [
+        "许可管理不足"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x33",
+      "name": "整改闭环不足",
+      "category": "oversight",
+      "definition": "已识别隐患整改缺乏完成验证与持续跟踪。",
+      "aliases": [
+        "整改闭环不足",
+        "隐患未整改"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x34",
+      "name": "应急响应准备不足",
+      "category": "oversight",
+      "definition": "应急资源、预案或演练不能支持所需响应。",
+      "aliases": [
+        "应急准备不足",
+        "应急响应准备不足"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    },
+    {
+      "id": "x35",
+      "name": "人员排班不合理",
+      "category": "oversight",
+      "definition": "人员排班、值勤安排与运行需求或休息要求不匹配。",
+      "aliases": [
+        "排班不合理"
+      ],
+      "role": "specific",
+      "catalog_group": "operational_candidate"
+    }
+  ]
+}

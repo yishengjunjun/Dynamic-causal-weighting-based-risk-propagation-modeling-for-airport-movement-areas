@@ -1,0 +1,11 @@
+{
+  "ready": false,
+  "config_sha256": "988ca5cca375c02d5251f8bdc54e28f3b895700badf424d93e1f601f05edeade",
+  "issues": [
+    "缺少 RiskData 数据文件"
+  ],
+  "data_fingerprint": null,
+  "scope": "configuration_and_data_contract",
+  "configuration_valid": true,
+  "private_data_included": false
+}

@@ -1,0 +1,113 @@
+{
+  "version": "0.3.0",
+  "date": "2026-10-12",
+  "scope": "local_software_review",
+  "pytest": {
+    "tests": 219,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "warnings": [
+    "joblib physical-core detection fell back to logical cores"
+  ],
+  "formatting": {
+    "tool": "Black",
+    "version": "26.10.1",
+    "python_files_checked": 34,
+    "passed": true
+  },
+  "comment_audit": {
+    "comments": 47,
+    "docstrings": 110,
+    "english_only_explanations": []
+  },
+  "software_pipeline_fixture": {
+    "actual_model_implementations_executed": true,
+    "chinese_figures_generated": 9,
+    "dynamic_attacks_and_controls": true,
+    "cli_train_resume_infer_rollout": true,
+    "artifacts_included": false
+  },
+  "exact_resume": {
+    "ccrl_refinement": true,
+    "ccrl_transition": true,
+    "temporal_graph": true,
+    "experiment_entrypoint": {
+      "DWPM": {
+        "epochs": 3,
+        "trace_rows": 4
+      },
+      "T-GNN": {
+        "epochs": 3,
+        "trace_rows": 3
+      }
+    }
+  },
+  "wheel": {
+    "build_passed": true,
+    "installation_passed": true,
+    "version": "0.3.0",
+    "imported_modules": 16,
+    "source_manifest_modules": 18,
+    "checkpoint_inference": true,
+    "closed_loop_prediction": true
+  },
+  "hanlp": {
+    "official_interface_checked": true,
+    "api_protocol_mock_tested": true,
+    "pretrained_weights_inference_executed": false,
+    "annotation_accuracy_evaluated": false
+  },
+  "provided_workbook_import": {
+    "records": 164,
+    "raw_file_included": false,
+    "private_text_outputs_included": false,
+    "source_authenticity_independently_verified": false
+  },
+  "configuration_valid": {
+    "default.json": "988ca5cca375c02d5251f8bdc54e28f3b895700badf424d93e1f601f05edeade",
+    "paper_protocols.json": "d81e79daa6f71cc3e0c4af4300e8d7e95863961f4183d21f4b9c894835b08164"
+  },
+  "empirical_paper_result_validation": false,
+  "github_published": false,
+  "github_ci_executed": false,
+  "prior_full_pipeline_validation_date": "2026-10-11",
+  "documentation_reorganization": {
+    "date": "2026-10-12",
+    "scope": "comments_docstrings_and_documentation_only",
+    "python_files_compared": 34,
+    "changed_python_files": [
+      "src/airport_risk/baselines.py",
+      "src/airport_risk/core.py",
+      "src/airport_risk/data.py",
+      "src/airport_risk/experiments.py",
+      "src/airport_risk/record_input.py",
+      "src/airport_risk/text_mining.py",
+      "tests/test_core.py",
+      "tests/test_models.py",
+      "tests/test_record_input.py"
+    ],
+    "executable_ast_unchanged": true,
+    "configuration_files_unchanged": 3,
+    "markdown_local_links_valid": true,
+    "production_comments": 47,
+    "production_docstrings": 110,
+    "english_only_explanations": [],
+    "before_zip_sha256": "eb03ee9e0afccfd6fce53c17566d2a5c26882bbabf92506698c6bbd7daa5c498",
+    "runtime_strings_unchanged": true,
+    "pytest": {
+      "tests": 219,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "warnings": 1
+    },
+    "black_check": {
+      "files": 34,
+      "passed": true
+    },
+    "full_pipeline_rerun": false,
+    "wheel_rebuild": false
+  }
+}

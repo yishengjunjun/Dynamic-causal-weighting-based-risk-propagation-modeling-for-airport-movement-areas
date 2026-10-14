@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the paper and the software version used."
+title: "Airport movement area dynamic risk propagation"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Jiayi
+version: 0.3.0
+preferred-citation:
+  type: article
+  title: "Dynamic causal weighting-based risk propagation modeling for airport movement areas"
+  authors:
+    - family-names: Wu
+      given-names: Wei
+    - family-names: Lin
+      given-names: Jiayi
+    - family-names: Wei
+      given-names: Ming
+    - family-names: Wang
+      given-names: Xinglong
+    - family-names: Zhu
+      given-names: Longfei
+  journal: Scientific Reports
+  volume: "16"
+  start: "5249"
+  year: 2026
+  doi: 10.1038/s41598-026-36059-3

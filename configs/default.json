@@ -1,0 +1,121 @@
+{
+  "schema_version": 2,
+  "experiment": {
+    "profile": "full",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "epochs": 40,
+    "hidden": 32,
+    "layers": 3,
+    "kernel_size": 3,
+    "lr": 0.001,
+    "epsilon": 1e-08,
+    "actor_lr": 0.001,
+    "critic_lr": 0.001,
+    "warmup_epochs": 5,
+    "optimizer": "adam",
+    "gamma": 0.9,
+    "action_scale": 0.02,
+    "max_weight": 1.0,
+    "refinement_steps": 3,
+    "training_mode": "transition",
+    "propagation_steps": 12,
+    "random_control_repetitions": 1000,
+    "strict_state_input": true,
+    "airport_holdout": null,
+    "eta": 0.7,
+    "control_fraction": 0.15,
+    "control_reduction": 0.5,
+    "stratified_train_fraction": 0.7,
+    "rolling_test_years": [],
+    "additional_train_fractions": [],
+    "printed_train_count": null,
+    "batch_size": 64,
+    "var_lag": 1,
+    "var_ridge": 0.01,
+    "dbn_max_parents": 2,
+    "dbn_smoothing": 1.0,
+    "grey_thresholds": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "grey_quantile_diagnostics": false,
+    "capacity_scales": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "eta_scales": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "perturbation_levels": [
+      0.2,
+      0.4,
+      0.6
+    ],
+    "inference_repetitions": 30,
+    "cpu_threads": 2,
+    "enabled_protocols": [
+      "primary"
+    ],
+    "enabled_experiments": [
+      "benchmark",
+      "ablation",
+      "grey",
+      "capacity",
+      "eta",
+      "attacks",
+      "controls"
+    ],
+    "model_names": [
+      "DWPM",
+      "NDWPM",
+      "DBN",
+      "VAR",
+      "T-GNN"
+    ],
+    "control_weight_modes": [
+      "dynamic",
+      "frozen"
+    ],
+    "control_rank_mode": "adaptive",
+    "stress_history_count": 4,
+    "stress_batch_size": 256,
+    "network_mode": "train_fitted",
+    "grey_threshold": 0.3,
+    "min_factor_prevalence": 0.01,
+    "exclude_constant_factors": true,
+    "min_edge_support": 2,
+    "permutations": 999,
+    "fdr_alpha": 0.05,
+    "seed": 2026,
+    "capacity_omega_be": 0.5,
+    "capacity_omega_pr": 0.5,
+    "capacity_scale": 1.0,
+    "capacity_normalization": "unit_mean",
+    "capacity_floor": 1e-06,
+    "capacity_mode": "train_quantile",
+    "train_capacity_quantile": 0.95,
+    "expert_edges": [],
+    "impedance_recovery_fraction": 0.1,
+    "impedance_delta_tolerance": 1e-09,
+    "relations": {},
+    "resume_checkpoints": {}
+  },
+  "preparation": {
+    "history_steps": 2,
+    "future_steps": 1,
+    "stride": 1,
+    "timezone": "Asia/Shanghai",
+    "missing": "reject"
+  },
+  "factor_catalog": "factors.json"
+}
