@@ -6,13 +6,6 @@
 
 <p><strong>机场飞行区动态因果权重与风险传播模型</strong></p>
 
-<p>Wei Wu<sup>1,2,*</sup> · Jiayi Lin<sup>2</sup> · Ming Wei<sup>2</sup> · Xinglong Wang<sup>3</sup> · Longfei Zhu<sup>2</sup></p>
-
-<p><sup>1</sup> School of Traffic and Transportation, Beijing Jiaotong University, Beijing, China<br>
-<sup>2</sup> College of Air Traffic Management, Civil Aviation University of China, Tianjin, China<br>
-<sup>3</sup> Key Laboratory of Internet of Aircrafts, Civil Aviation University of China, Tianjin, China<br>
-<sup>*</sup> Corresponding author</p>
-
 <p><em>Scientific Reports</em> <strong>16</strong>, 5249 (2026)</p>
 
 <p>
